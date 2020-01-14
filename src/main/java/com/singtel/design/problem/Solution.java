@@ -7,6 +7,9 @@ import com.singtel.design.problem.factory.ParrotFactory;
 import com.singtel.design.problem.impl.BirdImpl;
 import com.singtel.design.problem.impl.CanFlyImpl;
 import com.singtel.design.problem.impl.CanNotFlyImpl;
+import com.singtel.design.problem.impl.CanNotSingImpl;
+import com.singtel.design.problem.impl.CanNotWalkImpl;
+import com.singtel.design.problem.impl.CanSingImpl;
 import com.singtel.design.problem.impl.CanSwimImpl;
 import com.singtel.design.problem.impl.CanWalkImpl;
 import com.singtel.design.problem.impl.ChickenSingImpl;
@@ -61,5 +64,23 @@ public class Solution {
         parrot.performFly();
         parrot.performSing();
         parrot.perFormWalk();
+
+        //B. Model fish as well as other swimming animals(1, 2, 3)
+        SharkFish fish = new SharkFish(Fish.Size.LARGE, Fish.Colour.GREY,new CanSwimImpl(),new CanNotSingImpl(), new CanNotWalkImpl(), new CanNotFlyImpl());
+        fish.performFly();
+        fish.performSing();
+        fish.performSwim();
+        fish.performWalk();
+        fish.eat(new CrownFish(Fish.Size.SMALL, Fish.Colour.ORANGE, new CanSwimImpl(),new CanNotSingImpl(), new CanNotWalkImpl(), new CanNotFlyImpl()));
+
+        CrownFish crownFish = new CrownFish(Fish.Size.SMALL, Fish.Colour.ORANGE, new CanSwimImpl(),new CanNotSingImpl(), new CanNotWalkImpl(), new CanNotFlyImpl());
+        crownFish.makeJokes();
+        crownFish.performFly();
+        crownFish.performSing();
+        crownFish.performWalk();
+        crownFish.performSwim();
+
+        Dolphins dolphins = new Dolphins(new CanSwimImpl());
+        dolphins.performSwim();
     }
 }

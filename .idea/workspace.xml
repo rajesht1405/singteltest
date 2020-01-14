@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7471edf0-3d26-4b22-8492-d9277d504a80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/constants/ParrotTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/factory/ParrotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithCatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithDogImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithRoosterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotSing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CrownFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Dolphins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/SharkFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotSingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotWalkImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java" afterDir="false" />
     </list>
@@ -26,95 +28,63 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/factory/ChickenTypeFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/factory/ParrotFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithCatImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/SharkFish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CrownFish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithRoosterImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Dolphins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithDogImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanSing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/BirdImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="93" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="93" />
+            <state relative-caret-position="75">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Parrot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -122,11 +92,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="373">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotFly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotSing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotWalk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotSingImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotWalkImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -149,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/problem/Bird.java" />
         <option value="$PROJECT_DIR$/src/test/java/CanFlyTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/singtel/design/problem/impl/CanFlyTest.java" />
@@ -189,9 +207,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Parrot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithRoosterImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/factory/ParrotFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithDogImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithCatImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotSing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotWalk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotSingImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotWalkImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Fish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/ClownFish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Dolphins.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CrownFish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/singtel/design/problem/SharkFish.java" />
       </list>
     </option>
   </component>
@@ -259,33 +286,6 @@
               <item name="SingtelTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="singteltest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SingtelTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="singteltest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SingtelTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="singteltest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SingtelTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="singteltest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,6 +332,7 @@
       <recent name="com.singtel.design.problem.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.singtel.design.problem" />
       <recent name="com.singtel.design.problem.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -477,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579018643157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4. Can you model a parrot? We are specifically interested in three parrots(a, b, c, d)">
+      <created>1579019525218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579019525218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -515,7 +523,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19883041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,7 +543,8 @@
     <MESSAGE value="Initial commit covered for question - 1. Can you implement the sing() method for the bird?" />
     <MESSAGE value="2. Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you implement them to make their own special sound?(covered a,b,c,d)" />
     <MESSAGE value="3. Now how would you model a rooster?(a,b,c)" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Now how would you model a rooster?(a,b,c)" />
+    <MESSAGE value="4. Can you model a parrot? We are specifically interested in three parrots(a, b, c, d)" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Can you model a parrot? We are specifically interested in three parrots(a, b, c, d)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SingtelTest$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1579012500318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -604,17 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,20 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanSwim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -853,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithDogImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -873,11 +847,128 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanSingParrotWithCatImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotSing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotSingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/impl/CanNotWalkImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CrownFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Dolphins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/Fish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/CanNotWalk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/singtel/design/problem/SharkFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
