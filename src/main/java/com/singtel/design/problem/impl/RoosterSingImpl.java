@@ -4,12 +4,13 @@ import com.singtel.design.problem.CanSing;
 
 /**
  * <p>
- *     Duck Sing implementation.
+ *     Chicken Sing implementation.
  * </p>
  */
-public class DuckSingImpl extends CanSing {
+public class RoosterSingImpl extends CanSing {
+
     @Override
     public void sing() {
-        System.out.println("Quack, quack");
+        System.out.println("Cock-a-doodle-doo");
     }
 }

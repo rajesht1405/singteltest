@@ -1,5 +1,7 @@
 package com.singtel.design.problem;
 
+import com.singtel.design.problem.constants.ChickenTypeEnum;
+import com.singtel.design.problem.factory.ChickenTypeFactory;
 import com.singtel.design.problem.impl.BirdImpl;
 import com.singtel.design.problem.impl.CanFlyImpl;
 import com.singtel.design.problem.impl.CanNotFlyImpl;
@@ -34,5 +36,11 @@ public class Solution {
         chicken.performFly();;
         chicken.performSing();
         chicken.perFormWalk();
+
+        //3. Now how would you model a rooster?
+        Bird rooster = ChickenTypeFactory.getChickenInstance(ChickenTypeEnum.ROOSTER);
+        rooster.perFormWalk();
+        rooster.performFly();
+        rooster.performSing();
     }
 }
