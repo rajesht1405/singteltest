@@ -82,5 +82,16 @@ public class Solution {
 
         Dolphins dolphins = new Dolphins(new CanSwimImpl());
         dolphins.performSwim();
+
+        //D. Model animals that change their behaviour over time
+        ButterFlyModel butterFly = new ButterFly(new CanFlyImpl(), new CanNotSingImpl(), new CanWalkImpl());
+        butterFly.perfromFly();
+        butterFly.perfromSing();
+        butterFly.perfromWalk();
+
+        butterFly = new Caterpillar(new CanNotFlyImpl(), new CanNotSingImpl(), new CanWalkImpl());
+        butterFly.perfromFly();
+        butterFly.perfromSing();
+        butterFly.perfromWalk();
     }
 }
