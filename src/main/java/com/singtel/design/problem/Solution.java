@@ -1,7 +1,9 @@
 package com.singtel.design.problem;
 
 import com.singtel.design.problem.constants.ChickenTypeEnum;
+import com.singtel.design.problem.constants.ParrotTypes;
 import com.singtel.design.problem.factory.ChickenTypeFactory;
+import com.singtel.design.problem.factory.ParrotFactory;
 import com.singtel.design.problem.impl.BirdImpl;
 import com.singtel.design.problem.impl.CanFlyImpl;
 import com.singtel.design.problem.impl.CanNotFlyImpl;
@@ -42,5 +44,22 @@ public class Solution {
         rooster.perFormWalk();
         rooster.performFly();
         rooster.performSing();
+
+        //4. Can you model a parrot? We are specifically interested in three parrots,
+
+        Parrot parrot = ParrotFactory.getParrotInstance(ParrotTypes.PARROT_WITH_CAT);
+        parrot.performFly();
+        parrot.performSing();
+        parrot.perFormWalk();;
+
+        parrot = ParrotFactory.getParrotInstance(ParrotTypes.PARROT_WITH_DOG);
+        parrot.performFly();
+        parrot.performSing();
+        parrot.perFormWalk();
+
+        parrot = ParrotFactory.getParrotInstance(ParrotTypes.PARROT_WITH_ROOSTER);
+        parrot.performFly();
+        parrot.performSing();
+        parrot.perFormWalk();
     }
 }
