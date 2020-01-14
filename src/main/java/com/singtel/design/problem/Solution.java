@@ -93,6 +93,7 @@ public class Solution {
         butterFly.perfromSing();
         butterFly.perfromWalk();
 
+        //E. Counting animals
         BirdImpl bird1 = new BirdImpl();
        Duck duck= new Duck(new CanNotFlyImpl(), new DuckSingImpl(), new CanWalkImpl(), new CanSwimImpl());;
         Chicken chicken1 = new Chicken(new CanNotFlyImpl(), new ChickenSingImpl(), new CanWalkImpl());
