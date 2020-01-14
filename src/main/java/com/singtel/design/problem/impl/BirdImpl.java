@@ -2,10 +2,14 @@ package com.singtel.design.problem.impl;
 
 import com.singtel.design.problem.Bird;
 
+/**
+ * <p>
+ *     Bird implementation class. for eg: peagion,
+ * </p>
+ */
 public class BirdImpl extends Bird {
     public BirdImpl() {
-        setFlyBehavior(new CanFlyImpl());
-        setSingBehavior(new CanSingImpl());
-        setWalkBehavior(new CanWalkImpl());
+        super(new CanFlyImpl(),new CanSingImpl(),new CanWalkImpl());
+
     }
 }

@@ -7,6 +7,11 @@ package com.singtel.design.problem;
  */
 public abstract class Bird {
 
+    public Bird(IFlyBehavior flyBehavior, ISingBehavior singBehavior, IWalkBehavior walkBehavior){
+        this.flyBehavior = flyBehavior;
+        this.singBehavior = singBehavior;
+        this.walkBehavior = walkBehavior;
+    }
     // All behavior references.
     private IFlyBehavior flyBehavior;
     private ISingBehavior singBehavior;
