@@ -5,17 +5,29 @@ package com.singtel.design.problem;
  *     Abstract Bird class to hold common operations.
  * </P>
  */
-public abstract class Bird {
+public abstract class Bird implements IAnimal {
+    // All behavior references.
+    private IFlyBehavior flyBehavior;
+    private ISingBehavior singBehavior;
+    private IWalkBehavior walkBehavior;
 
     public Bird(IFlyBehavior flyBehavior, ISingBehavior singBehavior, IWalkBehavior walkBehavior){
         this.flyBehavior = flyBehavior;
         this.singBehavior = singBehavior;
         this.walkBehavior = walkBehavior;
     }
-    // All behavior references.
-    private IFlyBehavior flyBehavior;
-    private ISingBehavior singBehavior;
-    private IWalkBehavior walkBehavior;
+
+    public IFlyBehavior getFlyBehavior() {
+        return flyBehavior;
+    }
+
+    public ISingBehavior getSingBehavior() {
+        return singBehavior;
+    }
+
+    public IWalkBehavior getWalkBehavior() {
+        return walkBehavior;
+    }
 
     public void performFly() {
         flyBehavior.fly();

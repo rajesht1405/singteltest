@@ -3,14 +3,30 @@ package com.singtel.design.problem;
 public abstract class Fish implements IAnimal {
 
     private ISwimBehavior swimBehavior;
-    private ISingBehavior singBehavior;
-    private IWalkBehavior walkBehavior;
-    private IFlyBehavior flyBehavior;
-
     protected enum Size {LARGE, SMALL};
     protected enum Colour {GREY, ORANGE};
     protected Size size;
     protected Colour colour;
+    private ISingBehavior singBehavior;
+    private IWalkBehavior walkBehavior;
+    private IFlyBehavior flyBehavior;
+
+    public ISwimBehavior getSwimBehavior() {
+        return swimBehavior;
+    }
+
+    public ISingBehavior getSingBehavior() {
+        return singBehavior;
+    }
+
+    public IWalkBehavior getWalkBehavior() {
+        return walkBehavior;
+    }
+
+    public IFlyBehavior getFlyBehavior() {
+        return flyBehavior;
+    }
+
 
     public Size getSize() {
         return size;

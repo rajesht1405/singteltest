@@ -9,7 +9,6 @@ import com.singtel.design.problem.impl.CanFlyImpl;
 import com.singtel.design.problem.impl.CanNotFlyImpl;
 import com.singtel.design.problem.impl.CanNotSingImpl;
 import com.singtel.design.problem.impl.CanNotWalkImpl;
-import com.singtel.design.problem.impl.CanSingImpl;
 import com.singtel.design.problem.impl.CanSwimImpl;
 import com.singtel.design.problem.impl.CanWalkImpl;
 import com.singtel.design.problem.impl.ChickenSingImpl;
@@ -37,7 +36,7 @@ public class Solution {
         swimBird.perFormWalk();
         swimBird.performSwim();
 
-        Bird chicken = new Chicken(new CanFlyImpl(), new ChickenSingImpl(), new CanWalkImpl());
+        Bird chicken = new Chicken(new CanNotFlyImpl(), new ChickenSingImpl(), new CanWalkImpl());
         chicken.performFly();;
         chicken.performSing();
         chicken.perFormWalk();
@@ -93,5 +92,64 @@ public class Solution {
         butterFly.perfromFly();
         butterFly.perfromSing();
         butterFly.perfromWalk();
+
+        BirdImpl bird1 = new BirdImpl();
+       Duck duck= new Duck(new CanNotFlyImpl(), new DuckSingImpl(), new CanWalkImpl(), new CanSwimImpl());;
+        Chicken chicken1 = new Chicken(new CanNotFlyImpl(), new ChickenSingImpl(), new CanWalkImpl());
+        Chicken chicken2  = ChickenTypeFactory.getChickenInstance(ChickenTypeEnum.ROOSTER);
+        Parrot parrot1 = ParrotFactory.getParrotInstance(ParrotTypes.PARROT_WITH_ROOSTER);
+        SharkFish fish1 = new SharkFish(Fish.Size.LARGE, Fish.Colour.GREY,new CanSwimImpl(),new CanNotSingImpl(), new CanNotWalkImpl(), new CanNotFlyImpl());
+        CrownFish crownFish1 = new CrownFish(Fish.Size.SMALL, Fish.Colour.ORANGE, new CanSwimImpl(),new CanNotSingImpl(), new CanNotWalkImpl(), new CanNotFlyImpl());
+        Dolphins dolphins1 = new Dolphins(new CanSwimImpl());
+        ButterFlyModel butterFly1 = new ButterFly(new CanFlyImpl(), new CanNotSingImpl(), new CanWalkImpl());
+
+        IAnimal[] animals = new IAnimal[]{bird1,duck,chicken1,chicken2, parrot1, fish1, crownFish1, dolphins1, butterFly1};
+
+        int countFly = 0;
+        int countSing = 0;
+        int countSwim = 0;
+        int countWalk = 0;
+
+        for (IAnimal animal:animals) {
+
+            if(animal instanceof Bird) {
+                if(animal instanceof SwimBird) {
+                    SwimBird s = (SwimBird) animal;
+                    if (s.getSwimBehavior() instanceof CanSwim)
+                        countSwim++;
+                }
+                Bird s = (Bird) animal;
+                    if(s.getFlyBehavior() instanceof CanFly )
+                        countFly++;
+                    if(s.getWalkBehavior() instanceof CanWalk )
+                        countWalk++;
+                    if(s.getSingBehavior() instanceof CanSing )
+                        countSing++;
+
+            }else if(animal instanceof Fish){
+                Fish s = (Fish) animal;
+                if(s.getFlyBehavior() instanceof CanFly )
+                    countFly++;
+                if(s.getWalkBehavior() instanceof CanWalk )
+                    countWalk++;
+                if(s.getSingBehavior() instanceof CanSing )
+                    countSing++;
+                if (s.getSwimBehavior() instanceof CanSwim)
+                    countSwim++;
+            } else if(animal instanceof ButterFlyModel){
+                ButterFlyModel s = (ButterFlyModel) animal;
+                if(s.getFlyBehavior() instanceof CanFly )
+                    countFly++;
+                if(s.getWalkBehavior() instanceof CanWalk )
+                    countWalk++;
+                if(s.getSingBehavior() instanceof CanSing )
+                    countSing++;
+
+            } else if(animal instanceof Dolphins){
+                    countSwim++;
+            }
+
+        }
+        System.out.format("Fly %d, Swim %d, Walk %d, Sing %d",countFly,countSwim, countWalk, countSing);
     }
 }
